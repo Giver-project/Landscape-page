@@ -1,3 +1,45 @@
 body{
+    padding:0;
+    margin:0;
+    font-family: sans-serif;
+}
+.head{
+    display: inline-block;
+    width:100%;
     background:red;
+    text-align: center;
+}
+.head h1{
+    font-weight:100;/*for changing font weight of header*/
+    font-size: 40px;/*for changing font size*/
+}
+.nav{
+    width: 100vw;
+    height: 7vh;
+    background: yellow;
+}
+.nav div{
+    float: left;
+    width: 33.33%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav div a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.nav div:hover{
+    background: yellowgreen;
+    font-weight: bolder;
+}
+
+.main{
+    background: url('../images/Background_Landscape_1.jpg');
+    background-size: cover;
+    background-position-y: -150px;
+    width: 100%;
+    height: 80vh;
 }
