@@ -1,8 +1,9 @@
 
 body{
-    background-image: url("Background 1.png");
+    background-image: url("../images/Background.png");
     background-size: 100%;
     background-repeat: no-repeat;
+    background-color: #FEF5E7 ;
     padding:0;
     margin:0;
     font-family: sans-serif;
@@ -11,9 +12,9 @@ body{
 .head{
     display: inline-block;
     width:100%;
-    background:#D9626B;
+    background:#D9936A ;
     text-align: center;
-    opacity: 70%;
+    opacity: 90%;
 }
 .head h1{
     font-weight:100;/*for changing font weight of header*/
@@ -46,9 +47,9 @@ body{
     padding:0;
     margin:0;
     position:absolute;
-    bottom:-400px;
-    left:100px;
-    width:90%
+    bottom:-320px;
+    left:30px;
+    width:110%
 }
 .everesttext{
     position:absolute;
@@ -59,7 +60,7 @@ body{
     position:absolute;
     bottom:-22px;
     left:340px;
-    width:85%
+    width:110%
 }
 .mustangtext{
     position:absolute;
