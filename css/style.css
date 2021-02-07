@@ -48,22 +48,44 @@ body{
     margin:0;
     position:absolute;
     bottom:-320px;
-    left:30px;
+    left:10px;
     width:110%
 }
 .everesttext{
     position:absolute;
     bottom:300px;
-    left:50px;
+    left:110px;
 }
 .mustang{
     position:absolute;
     bottom:-22px;
-    left:340px;
+    left:300px;
     width:110%
 }
 .mustangtext{
     position:absolute;
     bottom:0px;
-    left:200px;
+    left:160px;
+}
+.phoksundo{
+    position:absolute;
+    bottom:-22px;
+    left:620px;
+    width:110%
+}
+.phoksundotext{
+    position:absolute;
+    bottom:5px;
+    left:100px;
+}
+.annapurna{
+    position:absolute;
+    bottom:-22px;
+    left:940px;
+    width:110%
+}
+.annapurnatext{
+    position:absolute;
+    bottom:5px;
+    left:100px;
 }
