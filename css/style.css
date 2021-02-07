@@ -41,20 +41,28 @@ body{
     background: #D9936A;
     font-weight: bolder;
 }
-
-.main{
-    background: url('../images/Background_Landscape_1.jpg');
-    background-size: cover;
-    background-position-y: -150px;
-    width: 100%;
-    height: 80vh;
-}
 .everest{
-    opacity: 50%;
+    opacity: 100%;
     padding:0;
     margin:0;
+    position:absolute;
+    bottom:-400px;
+    left:100px;
+    width:90%
+}
+.everesttext{
+    position:absolute;
+    bottom:300px;
+    left:50px;
 }
 .mustang{
-    flex: 33.33%;
-    padding: 100px;
+    position:absolute;
+    bottom:-22px;
+    left:340px;
+    width:85%
+}
+.mustangtext{
+    position:absolute;
+    bottom:0px;
+    left:200px;
 }
