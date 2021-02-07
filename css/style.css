@@ -1,52 +1,101 @@
-body{
-    padding:0;
-    margin:0;
+body {
+    padding: 0;
+    margin: 0;
     font-family: sans-serif;
 }
-.head{
+
+.head {
     display: inline-block;
-    width:100%;
-    background:red;
+    width: 100%;
+    background: red;
     text-align: center;
 }
-.head h1{
-    font-weight:100;/*for changing font weight of header*/
-    font-size: 40px;/*for changing font size*/
+
+.head h1 {
+    font-weight: 100;
+    /*for changing font weight of header*/
+    font-size: 40px;
+    /*for changing font size*/
 }
-.nav{
-    width: 100vw;
+
+.nav {
+    width: 100%;
     height: 7vh;
     background: yellow;
 }
-.nav div{
+
+.nav div {
     float: left;
-    width: 33.33%;
+    width: 33%;
     height: inherit;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.nav div a{
+
+.nav div a {
     text-decoration: none;
     color: black;
     font-size: 20px;
 }
-.nav div:hover{
+
+.nav div:hover {
     background: yellowgreen;
     font-weight: bolder;
 }
 
-.main{
-    background: url('../images/Background_Landscape_1.jpg');
-    background-size: cover;
-    background-position-y: -150px;
+.main {
+    background: url('../images/Background.png');
+    background-size:100% 100%;
+    background-repeat: no-repeat;
     width: 100%;
     height: 80vh;
 }
-.img1{
-    width:10vw;
-    height:auto;
-    position:absolute;
-    bottom:0;
-    left:0;
+
+.details{
+    width: inherit;
+    height: 50%;
+    margin:0;
+}
+
+.list{
+    display: inline-block;
+    width: inherit;
+    height: 50%;
+    margin:0;
+}
+.topichead{
+    background: rgba(36, 128, 165, 0.459);
+    margin:0;
+    display:flex;
+    width:100%;
+    height:20%;
+    align-items: center;
+    justify-content: center;
+}
+.place{
+    background: rgba(255, 255, 255, 0.438);
+    color: white;
+    width:max-content;
+    height: 28vh;
+    border: 5px solid black;
+    border-radius: 30px 30px 30px 30px;
+}
+.placeimg{
+    height: 70%;
+    border-radius: 20px 20px 0 0;
+}
+.placelink{
+    width: max-content;
+    display: inline-block;
+    margin:15px;
+    text-decoration: none;
+    color: black;
+}
+.placename{
+    height: 30%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
