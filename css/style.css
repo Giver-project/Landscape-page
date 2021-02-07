@@ -1,3 +1,69 @@
+
 body{
-    background:red;
+    background-image: url("../images/Background.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #FEF5E7 ;
+    padding:0;
+    margin:0;
+    font-family: sans-serif;
+
+}
+.head{
+    display: inline-block;
+    width:100%;
+    background:#D9936A ;
+    text-align: center;
+    opacity: 90%;
+}
+.head h1{
+    font-weight:100;/*for changing font weight of header*/
+    font-size: 40px;/*for changing font size*/
+}
+.nav{
+    width: 100vw;
+    height: 7vh;
+    background: #60BF9C;
+}
+.nav div{
+    float: left;
+    width: 33.33%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav div a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.nav div:hover{
+    background: #D9936A;
+    font-weight: bolder;
+}
+.everest{
+    opacity: 100%;
+    padding:0;
+    margin:0;
+    position:absolute;
+    bottom:-320px;
+    left:30px;
+    width:110%
+}
+.everesttext{
+    position:absolute;
+    bottom:300px;
+    left:50px;
+}
+.mustang{
+    position:absolute;
+    bottom:-22px;
+    left:340px;
+    width:110%
+}
+.mustangtext{
+    position:absolute;
+    bottom:0px;
+    left:200px;
 }
