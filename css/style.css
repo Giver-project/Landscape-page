@@ -1,14 +1,19 @@
+
 body{
-    background-image: url();
+    background-image: url("Background 1.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
     padding:0;
     margin:0;
     font-family: sans-serif;
+
 }
 .head{
     display: inline-block;
     width:100%;
     background:#D9626B;
     text-align: center;
+    opacity: 70%;
 }
 .head h1{
     font-weight:100;/*for changing font weight of header*/
@@ -43,4 +48,13 @@ body{
     background-position-y: -150px;
     width: 100%;
     height: 80vh;
+}
+.everest{
+    opacity: 50%;
+    padding:0;
+    margin:0;
+}
+.mustang{
+    flex: 33.33%;
+    padding: 100px;
 }
