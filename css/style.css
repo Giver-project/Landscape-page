@@ -1,4 +1,9 @@
 
+*{
+    margin:0 auto;
+    padding:0;
+    box-sizing: border-box;
+}
 body{
     background-image: url("../images/Background.png");
     background-size: 100%;
@@ -21,7 +26,7 @@ body{
     font-size: 40px;/*for changing font size*/
 }
 .nav{
-    width: 100vw;
+    width: 98.7vw;
     height: 7vh;
     background: #60BF9C;
 }
@@ -42,50 +47,144 @@ body{
     background: #D9936A;
     font-weight: bolder;
 }
-.everest{
-    opacity: 100%;
-    padding:0;
-    margin:0;
-    position:absolute;
-    bottom:-320px;
-    left:10px;
-    width:110%
+
+.everest img{
+    padding: 0%;
+    margin: 0%;
+    width: 20%;
+    position: relative;
+    left:70px;
+    bottom: -440px;
+    border-radius: 15px;
 }
+.mustang img{
+    padding: 0%;
+    margin: 0%;
+    position: relative;
+    left:385px;
+    bottom: -256px;
+    border-radius: 15px;}
+.phoksundo img{
+    padding: 0%;
+    margin: 0%;
+    position: relative;
+    left:697px;
+    bottom: -72px;
+    border-radius: 15px;}
+.annapurna img{
+    padding: 0%;
+    margin: 0%;
+    position: relative;
+    left:1010px;
+    bottom: 110px;
+    border-radius: 15px;}
+.poonhill img{
+    padding: 0%;
+    margin: 0%;
+    position: relative;
+    left:70px;
+    bottom: 70px;
+    border-radius: 15px;
+}
+.khaptad img{
+    padding: 0%;
+    margin: 0%;
+    position: relative;
+    left:385px;
+    bottom: 255px;
+    border-radius: 15px;
+}
+.pachpokhari img{
+    padding: 0%;
+    margin: 0%;
+    position: relative;
+    left:697px;
+    bottom: 440px;
+    border-radius: 15px;}
+.rara img{
+    padding: 0%;
+    margin: 0%;
+    position: relative;
+    left:1010px;
+    bottom: 625px;
+    border-radius: 20px;}
 .everesttext{
-    position:absolute;
-    bottom:300px;
-    left:110px;
-}
-.mustang{
-    position:absolute;
-    bottom:-22px;
-    left:300px;
-    width:110%
+    padding: 10px;
+    padding-left: 73px;
+    padding-right: 82px;
+    margin: 0%;
+    position: relative;
+    left:70px;
+    bottom:900px;
+    background-color: green; 
 }
 .mustangtext{
-    position:absolute;
-    bottom:0px;
-    left:160px;
-}
-.phoksundo{
-    position:absolute;
-    bottom:-22px;
-    left:620px;
-    width:110%
+    padding: 10px;
+    padding-left: 88px;
+    padding-right: 91px;
+    margin: 0%;
+    position: relative;
+    left:110px;
+    bottom: 900px;
+    background-color: green; 
 }
 .phoksundotext{
-    position:absolute;
-    bottom:5px;
-    left:100px;
-}
-.annapurna{
-    position:absolute;
-    bottom:-22px;
-    left:940px;
-    width:110%
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 40px;
+    margin: 0%;
+    position: relative;
+    left:147px;
+    bottom: 900px;
+    background-color: green; 
 }
 .annapurnatext{
-    position:absolute;
-    bottom:5px;
-    left:100px;
+    padding: 10px;
+    padding-left: 79px;
+    padding-right: 72px;
+    margin: 0%;
+    position: relative;
+    left:185.5px;
+    bottom: 900px;
+    background-color: green; 
+}
+.poonhilltext{
+    padding: 10px;
+    padding-left: 92px;
+    padding-right: 92px;
+    margin: 0%;
+    position: relative;
+    left:70px;
+    bottom:700px;
+    background-color: green; 
+}
+.khaptadtext{
+    padding: 10px;
+    padding-left: 91px;
+    padding-right: 91px;
+    margin: 0%;
+    position: relative;
+    left:111px;
+    bottom: 705px;
+    background-color: green; 
+}
+.pachpokharitext{
+    padding: 10px;
+    padding-left: 64px;
+    padding-right: 64px;
+    margin: 0%;
+    position: relative;
+    left:147px;
+    bottom: 705px;
+    background-color: green; 
+}
+.raratext{
+    padding: 10px;
+    padding-left: 109px;
+    padding-right: 109px;
+    margin: 0%;
+    position: relative;
+    left:185px;
+    bottom: 708px;
+    background-color: green; 
 }
