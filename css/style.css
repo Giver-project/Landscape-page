@@ -24,22 +24,18 @@ body {
     background: rgb(0, 255, 255);
 }
 
-.nav div {
+.nav a {
     float: left;
     width: 33%;
     height: inherit;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.nav div a {
     text-decoration: none;
     color: black;
     font-size: 20px;
 }
-
-.nav div:hover {
+.nav a:hover {
     background:rgb(0, 150, 187);
     font-weight: bolder;
 }
