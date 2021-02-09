@@ -48,14 +48,25 @@ body {
 }
 
 .details{
+    display: flex;
     width: inherit;
     height: 50%;
     margin:0;
+    align-items: center;
     background: url('../images/Background.png');
     background-size: cover;
     background-position-y: center;
 }
 
+.details p{
+    display: inline-block;
+    background:rgba(0, 0, 0, 0.6);
+    color: white;
+    padding:20px;
+    border-radius: 30px;
+    width: 100%;
+    margin: 20px;
+}
 .list{
     background: url('../images/Background.png');
     background-size: cover;
