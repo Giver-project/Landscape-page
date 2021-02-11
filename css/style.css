@@ -64,11 +64,14 @@ body {
     color: white;
     padding:20px;
     border-radius: 30px;
-    width: 100%;
+    width: 58%;
     margin: 20px;
+    position: absolute;
+    top: 130px;
+    left:245px
 }
 .list{
-    background: url('../images/Background.png');
+    background-color: lavenderblush;
     background-size: cover;
     background-position-y: center;
     display: inline-block;
