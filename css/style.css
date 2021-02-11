@@ -53,6 +53,7 @@ body {
     height: 50%;
     margin:0;
     align-items: center;
+    justify-content: center;
     background: url('../images/Background.png');
     background-size: cover;
     background-position-y: center;
@@ -66,9 +67,6 @@ body {
     border-radius: 30px;
     width: 58%;
     margin: 20px;
-    position: absolute;
-    top: 130px;
-    left:245px
 }
 .list{
     background-color: lavenderblush;
